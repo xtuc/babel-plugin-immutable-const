@@ -15,10 +15,15 @@ export default function ({ types: t }) {
   return {
     visitor: {
       VariableDeclaration(path) {
-        const varDeclaration = path.node.declarations[0];
+
+        const { kind, declarations } = path.node;
+        const varDeclaration = declarations[0];
         const name = varDeclaration.id.name;
 
-        path.traverse(wrapVisitor, { name });
+        if (kind === "const") {
+          path.traverse(wrapVisitor, { name });
+        }
+
       }
     }
   }
