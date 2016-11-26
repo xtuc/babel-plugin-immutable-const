@@ -17,7 +17,7 @@ Add the following line to your .babelrc file:
 
 ```json
 {
-  "presets": ["immutable-const"]
+  "plugins": ["immutable-const"]
 }
 ```
 
