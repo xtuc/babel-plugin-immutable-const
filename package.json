@@ -2,6 +2,12 @@
   "name": "babel-plugin-immutable-const",
   "version": "1.0.1",
   "description": "Freeze object using const declaration",
+  "keywords": [
+    "babel",
+    "const",
+    "plugins",
+    "immutable"
+  ],
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,6 +16,10 @@
   "keywords": [],
   "author": "Sven SAULEAU",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xtuc/babel-plugin-immutable-const.git"
+  },
   "devDependencies": {
     "babel-cli": "^6.18.0"
   },
