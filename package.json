@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-immutable-const",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Freeze object using const declaration",
   "keywords": [],
   "main": "lib/index.js",
