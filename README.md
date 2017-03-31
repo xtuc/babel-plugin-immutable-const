@@ -1,5 +1,7 @@
 # Babel plugin immutable const
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/xtuc/babel-plugin-immutable-const.svg)](https://greenkeeper.io/)
+
 > Transform _consted_ objects into immutable objects.
 
 The object will be frozen. This will avoid future mutations on it.
